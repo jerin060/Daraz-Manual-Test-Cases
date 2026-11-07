@@ -39,7 +39,7 @@ Test Scenario  →  Test Case  →  Test Data
 ## 📊 Test Coverage
 | Module | Scenarios | Test Cases | High | Medium | Low |
 |---|:-:|:-:|:-:|:-:|:-:|
-| Registration | 8 | 14 | 5 | 7 | 2 |
+| Registration | 9 | 15 | 5 | 7 | 2 |
 | Login | 7 | 10 | 6 | 3 | 1 |
 | Search | 5 | 9 | 2 | 4 | 3 |
 | Product Details | 6 | 8 | 3 | 3 | 2 |
@@ -47,7 +47,7 @@ Test Scenario  →  Test Case  →  Test Data
 | Wishlist | 4 | 6 | 2 | 3 | 1 |
 | Checkout | 5 | 8 | 3 | 5 | 0 |
 | Payment | 5 | 8 | 3 | 4 | 1 |
-| **Total** | **45** | **72** | **27** | **35** | **10** |
+| **Total** | **46** | **73** | **27** | **36** | **10** |
 
 Every test case covers positive, negative or boundary behaviour. Techniques used: equivalence partitioning, boundary value analysis and error guessing.
 
