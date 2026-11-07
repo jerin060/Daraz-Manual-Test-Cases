@@ -14,7 +14,7 @@
 
 ---
 
-## 📌 About
+##  About
 A manual testing project that designs test documentation for the main customer journey on **Daraz**: from creating an account to paying for an order. It follows the standard QA flow:
 
 ```
@@ -24,7 +24,7 @@ Test Scenario  →  Test Case  →  Test Data
 
 > **Scope:** test case writing only (no automation). Application under test: [Daraz](https://www.daraz.com.bd).
 
-## 🧩 Modules Covered
+##  Modules Covered
 | Module | What is tested |
 |---|---|
 | Registration | New account creation, field validation, OTP, duplicate account |
@@ -36,7 +36,7 @@ Test Scenario  →  Test Case  →  Test Data
 | Checkout | Address, order summary |
 | Payment | Payment method selection (COD, bKash, Nagad, card) |
 
-## 📊 Test Coverage
+##  Test Coverage
 | Module | Scenarios | Test Cases | High | Medium | Low |
 |---|:-:|:-:|:-:|:-:|:-:|
 | Registration | 9 | 15 | 5 | 7 | 2 |
@@ -51,7 +51,7 @@ Test Scenario  →  Test Case  →  Test Data
 
 Every test case covers positive, negative or boundary behaviour. Techniques used: equivalence partitioning, boundary value analysis and error guessing.
 
-## 📁 File Structure
+##  File Structure
 ```
 daraz-manual-test-cases/
 ├── README.md
@@ -66,7 +66,7 @@ daraz-manual-test-cases/
 | **Test Cases** | Step, action, expected result, status, actual result, priority, scenario ID, test data ID |
 | **Test Data** | Data ID, module, test case ID, field, data type (valid / invalid / boundary), value |
 
-## 🚀 How to Use
+##  How to Use
 1. Open `test-artifacts/Daraz_Test_Cases.xlsx` in Excel or Google Sheets.
 2. Pick a test case and read its **Prereq.** row.
 3. Get the input values from the **Test Data** sheet (use the Test Data ID).
@@ -74,7 +74,7 @@ daraz-manual-test-cases/
 5. Set **Status** (`Success`, `Failed`, `Block/Skip`) and write any difference in **Actual Result**.
 6. Log each failure in new document.
 
-## 🏷️ Conventions
+##  Conventions
 | Item | Format | Example |
 |---|---|---|
 | Scenario | `TS-<MODULE>-<nn>` | `TS-LOG-02` |
